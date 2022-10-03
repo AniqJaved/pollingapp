@@ -13,27 +13,35 @@
         <p>Choose the candidate as your next President</p>
         <form id="vote-form">
             <p>
-                <input type="radio" name="candidate" id="first" value="First">
-                <label for="first">Muller</label>
+                <label for="first">
+                    <input type="radio" name="candidate" id="first" value="Muller">
+                    <span>Muller</span>
+                </label>
             </p>
             <p>
-                <input type="radio" name="candidate" id="second" value="Second">
-                <label for="second">Tim</label>
+                <label for="second">
+                    <input type="radio" name="candidate" id="second" value="Tim">
+                    <span>Tim</span>
+                </label>
             </p>
             <p>
-                <input type="radio" name="candidate" id="third" value="Third">
-                <label for="third">Brad</label>
+                <label for="third">
+                    <input type="radio" name="candidate" id="third" value="Brad">
+                    <span>Brad</span>
+                </label>
             </p>
             <p>
-                <input type="radio" name="candidate" id="forth" value="Forth">
-                <label for="forth">Kevin</label>
+                <label for="forth">
+                    <input type="radio" name="candidate" id="forth" value="Kevin">
+                    <span>Kevin</span>
+                </label>
             </p>
             <input type="submit" value="Vote" class="btn">
 
             <br>
             <br>
 
-            <div class="chartContainer" style="height: 300px; width: 100%"></div>
+            <div id="chartContainer" style="height: 300px; width: 100%"></div>
         </form>
     </div>
 
@@ -42,6 +50,7 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/7.4.0/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
     <script src="main.js"></script>
    
 </body>
