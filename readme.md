@@ -1,7 +1,6 @@
-1. Run by using npm run dev
+1. Run by using 
+    npm run dev
 
-2. We have to make the labels in index.html and main.js equal to the name of the candidates.(Done)
+2. Add connection string in config/db.js file
 
-3. subscriber_count is present in the poll.js file. We have to fetch that data to the index.html file.
-
-4. We can also use cache channel feature.
+3. Pusher subscription_count feature is implemented in main.js file. Const named totalSub is used to implement this feature there.
