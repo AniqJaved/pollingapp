@@ -43,7 +43,7 @@ fetch('http://localhost:3000/poll').then(res => res.json()).then(data =>{
     if(chartContainer){
         const chart = new CanvasJS.Chart('chartContainer' , {  //We are not definig CanvasJS here because we are using its cdn in the index.html file
             animationEnabled: true,
-            theme: 'theme1',
+            theme: 'theme3',
             title: {
                 text: `Total Votes ${totalVotes}`
             },
