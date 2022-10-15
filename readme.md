@@ -34,9 +34,9 @@ Here are the steps to be taken after that:
 
 
 1. Clone the repository:
-
-git clone https://github.com/AniqJaved/pollingapp.git
-
+    ```bas
+    git clone https://github.com/AniqJaved/pollingapp.git
+    ```
 
 2. Change directory:
     ```bash
