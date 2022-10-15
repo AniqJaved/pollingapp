@@ -10,9 +10,15 @@ This is a polling app powered by using pusher API.
 
 
 
-##Special Features
+## Special Features
 
- Pusher subscription_count feature is implemented in main.js file. Const named totalSub is used to implement this feature there.
+
+💗 Used Pusher for realtime display of voting results.
+
+⚡ Used Pusher for realtime display of total votes counted.
+
+🌎 Used Pusher for realtime display of people currently voting using subscription_count feature.
+
 
 ## Set up Project Requirements
 
